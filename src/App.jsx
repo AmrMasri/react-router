@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Routes>
-      <Route />
+      <Route path="/" element= {<Home />} />
       <Route />
     </Routes>
   );
